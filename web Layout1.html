@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: black;
+        }
+
+        a {
+            font-size: 1.5rem;
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 30px;
+            color: white;
+        }
+
+        a:hover {
+            background-color: rgb(82, 82, 82);
+        }
+
+        .header {
+            margin: 1rem 2rem;
+        }
+
+        .content {
+            margin: 1rem;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            padding: 10px;
+            text-align: justify;
+        }
+        p{
+            font-size: 18px;
+        }
+
+        @media screen and (max-width: 700px) {
+            .column{
+                width: 100%;
+            }
+            a{
+                padding: 12px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    <div class="header">
+        <h1>Hello World</h1>
+        <p>This is parctice of making columns on web page.</p>
+    </div>
+
+    <div class="content">
+        <div class="column">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed modi culpa, animi eius dolore perspiciatis
+                quae officiis nisi ipsa iste illo vitae doloremque minus autem! Dolore exercitationem enim laborum est
+                quos repudiandae doloremque hic, deserunt consequatur? Dicta molestias doloribus suscipit expedita
+                libero facere quos, labore nulla asperiores quisquam magni autem sed! Cumque voluptate ad odio odit fuga
+                eligendi facere placeat nostrum sint repellendus, consectetur dolores, atque qui magnam itaque, eveniet
+                similique beatae nulla rem quos! Maxime sunt vitae eligendi fugit?</p>
+        </div>
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed modi culpa, animi eius dolore perspiciatis
+                quae officiis nisi ipsa iste illo vitae doloremque minus autem! Dolore exercitationem enim laborum est
+                quos repudiandae doloremque hic, deserunt consequatur? Dicta molestias doloribus suscipit expedita
+                libero facere quos, labore nulla asperiores quisquam magni autem sed! Cumque voluptate ad odio odit fuga
+                eligendi facere placeat nostrum sint repellendus, consectetur dolores, atque qui magnam itaque, eveniet
+                similique beatae nulla rem quos! Maxime sunt vitae eligendi fugit?</p>
+        </div>
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed modi culpa, animi eius dolore perspiciatis
+                quae officiis nisi ipsa iste illo vitae doloremque minus autem! Dolore exercitationem enim laborum est
+                quos repudiandae doloremque hic, deserunt consequatur? Dicta molestias doloribus suscipit expedita
+                libero facere quos, labore nulla asperiores quisquam magni autem sed! Cumque voluptate ad odio odit fuga
+                eligendi facere placeat nostrum sint repellendus, consectetur dolores, atque qui magnam itaque, eveniet
+                similique beatae nulla rem quos! Maxime sunt vitae eligendi fugit?</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .contanier{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        header, footer{
+            background-color: gray;
+            color: white;
+            height:20vh;
+        }
+        .inbody{
+            display: flex;
+            height: 100%;
+        }
+        section{
+            min-width: 20vw;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        a{
+            text-decoration: none;
+            margin: 10px;
+            color: white;
+            padding: 10px;
+            font-size: 25px;
+            background-color: rgb(0, 165, 0);
+        }
+        a:hover{
+            background-color: green;
+        }
+        p{
+            text-align: justify;
+            font-size: 20px;
+        }
+        aside{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contanier">
+        <header><h1>Multan City</h1></header>
+        <div class="inbody">
+            <section>
+                    <a href="#">About</a>
+                    <a href="#">Institutes</a>
+                    <a href="#">Malls</a>
+                    <a href="#">Parks</a>
+                    <a href="#">Transport</a>
+            </section>
+            <aside>
+                <p>Multan, city, south-central Punjab province, east-central Pakistan. It is built on a mound just east of the Chenab River. The chief seat of the Malavas, an ancient people who ruled the region in the 4th century bce, Multan was subdued by Alexander the Great in 326 bce and was brought under Umayyad rule about 712 ce.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum officiis temporibus veniam ea est, quam fuga sed quas assumenda labore nemo eveniet esse aperiam quis ut accusantium animi. Maiores ullam veritatis odit quam animi eaque fugit illum accusantium reiciendis deleniti sint totam facere provident officiis minima ab, neque dolorem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum officiis temporibus veniam ea est, quam fuga sed quas assumenda labore nemo eveniet esse aperiam quis ut accusantium animi. Maiores ullam veritatis odit quam animi eaque fugit illum accusantium reiciendis deleniti sint totam facere provident officiis minima ab, neque dolorem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum officiis temporibus veniam ea est, quam fuga sed quas assumenda labore nemo eveniet esse aperiam quis ut accusantium animi. Maiores ullam veritatis odit quam animi eaque fugit illum accusantium reiciendis deleniti sint totam facere provident officiis minima ab, neque dolorem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum officiis temporibus veniam ea est, quam fuga sed quas assumenda labore nemo eveniet esse aperiam quis ut accusantium animi. Maiores ullam veritatis odit quam animi eaque fugit illum accusantium reiciendis deleniti sint totam facere provident officiis minima ab, neque dolorem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum officiis temporibus veniam ea est, quam fuga sed quas assumenda labore nemo eveniet esse aperiam quis ut accusantium animi. Maiores ullam veritatis odit quam animi eaque fugit illum accusantium reiciendis deleniti sint totam facere provident officiis minima ab, neque dolorem!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsum officiis temporibus veniam ea est, quam fuga sed quas assumenda labore nemo eveniet esse aperiam quis ut accusantium animi. Maiores ullam veritatis odit quam animi eaque fugit illum accusantium reiciendis deleniti sint totam facere provident officiis minima ab, neque dolorem!</p>
+            </aside>
+        </div>
+            <footer>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta odit, commodi architecto dolorem autem repellat quia sequi officiis aliquid voluptate, repellendus blanditiis in.</footer>
+        </div>
+</body>
+</html>

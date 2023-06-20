@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Layout</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        .header{
+            width: 100%;
+            padding: 2rem;
+            background-color: blueviolet;
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        .section{
+            float: left;
+            width: 18%;
+        }
+
+        .section a{
+            display: block;
+            padding: 10px;
+            width: 100%;
+            margin: auto;
+            margin-top: 20px;
+            text-decoration: none;
+            background-color: skyblue;
+            color: black;
+        }
+        .section a:hover{
+            background-color: rgb(75, 161, 195);
+        }
+        
+        
+        .about{
+            float: left;
+            width: 50%;
+            padding: 20px;
+            padding-left: 25px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            text-align: justify;
+        }
+        .box{
+            float: right;
+            width: 25%;
+            text-align: center;
+            padding: 2rem;
+            background-color: skyblue;
+            margin: 20px;
+            
+        }
+        
+        .footer{
+            float: left;
+            min-height: 5rem;
+            padding: 3rem;
+            font-size: 1.5rem;
+            background-color: rgb(105, 176, 204);
+            width: 100%;
+        }
+
+        @media screen and (max-width: 650px) {
+            .box{
+                width: 100%;
+                margin: auto;
+            }
+            .about{
+                width: 70%;
+            }
+            .section{
+                width: 30%;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .section{
+                width: 100%;
+                margin: auto;
+            }
+            .about{
+                width: 100%;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        Islamabad
+    </div>
+
+    <div class="section">
+        <a href="#">Flight</a>
+        <a href="#">Transport</a>
+        <a href="#">Educations</a>
+        <a href="#">Hotels</a>
+    </div>
+
+    <div class="about">
+        <h1>The City</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi accusantium ullam, quod temporibus quibusdam voluptas omnis aperiam saepe nesciunt explicabo aliquid facilis quos at numquam excepturi dignissimos possimus odit aut minus ratione? Perferendis ad hic quam voluptate dolores temporibus eum saepe velit, quaerat sint molestiae dolore voluptatibus dolorum veniam dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium ullam labore possimus tempora doloremque maiores at ut qui et? Veritatis repudiandae ullam neque unde facilis quibusdam, nihil error consectetur animi.</p>
+    </div>
+
+    <div class="box">
+        <h1>What?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae totam eius fuga?</p>
+
+        <h1>Where?</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo ducimus blanditiis debitis laboriosam doloribus. Ad magni blanditiis nemo!</p>
+
+        <h1>How?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, magni?</p>
+    </div>
+
+    <div class="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi molestiae, quas saepe odit dolore temporibus possimus quo nihil alias commodi.
+    </div>
+
+</body>
+</html>
